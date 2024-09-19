@@ -50,13 +50,13 @@ struct GuestView: View {
                                 CardView(title: "Persona", color: .red)
                             }
                             
-                            NavigationLink(destination: ResiduoView()) {
+                            NavigationLink(destination: ResiduoView().navigationBarBackButtonHidden(true)) {
                                 CardView(title: "Donar Ropa", color: .purple)
                             }
                         }
                         .padding()
                     }
-                    .padding(.top, 20)
+                    .padding(20)
                 }
                 .navigationBarTitle("Dashboard", displayMode: .inline)
                 .navigationBarBackButtonHidden(true)

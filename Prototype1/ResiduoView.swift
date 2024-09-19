@@ -117,7 +117,7 @@ struct ResiduoView: View {
                                             .padding()
                         }
                     }
-                    .padding()
+                    .padding(.bottom, 70)
                 }
                 .navigationBarTitle("Reportar Residuo", displayMode: .inline)
                 .navigationBarBackButtonHidden(true)

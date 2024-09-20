@@ -18,6 +18,7 @@
 		3C43427C2C9DE378007A0409 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3C43427B2C9DE378007A0409 /* FirebaseStorage */; };
 		3C43427E2C9DE378007A0409 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3C43427D2C9DE378007A0409 /* FirebaseStorageCombine-Community */; };
 		3C4342802C9DE5AB007A0409 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C43427F2C9DE5AB007A0409 /* GoogleService-Info.plist */; };
+		3CA872BB2C9DF18E0009209E /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA872BA2C9DF18E0009209E /* FirebaseService.swift */; };
 		3CC45B6B2C80D1B000A39477 /* Prototype1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC45B6A2C80D1B000A39477 /* Prototype1App.swift */; };
 		3CC45B6D2C80D1B000A39477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC45B6C2C80D1B000A39477 /* ContentView.swift */; };
 		3CC45B6F2C80D1B200A39477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC45B6E2C80D1B200A39477 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		3C150DB62C9917B400E08AF3 /* ResiduoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResiduoViewModel.swift; sourceTree = "<group>"; };
 		3C25D6582C9C94F200E6BEB6 /* EmpresaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpresaView.swift; sourceTree = "<group>"; };
 		3C43427F2C9DE5AB007A0409 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CA872BA2C9DF18E0009209E /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
 		3CC45B672C80D1B000A39477 /* Prototype1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC45B6A2C80D1B000A39477 /* Prototype1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype1App.swift; sourceTree = "<group>"; };
 		3CC45B6C2C80D1B000A39477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				3CC45B7C2C81073B00A39477 /* PersonaView.swift */,
 				3C150DB22C99155A00E08AF3 /* ResiduoView.swift */,
 				3C150DB62C9917B400E08AF3 /* ResiduoViewModel.swift */,
+				3CA872BA2C9DF18E0009209E /* FirebaseService.swift */,
 				3CC45B6E2C80D1B200A39477 /* Assets.xcassets */,
 				3CC45B702C80D1B200A39477 /* Preview Content */,
 			);
@@ -189,6 +192,7 @@
 				3CC45B7D2C81073B00A39477 /* PersonaView.swift in Sources */,
 				3C25D6592C9C94F200E6BEB6 /* EmpresaView.swift in Sources */,
 				3CC45B7B2C80E68A00A39477 /* ConocenosView.swift in Sources */,
+				3CA872BB2C9DF18E0009209E /* FirebaseService.swift in Sources */,
 				3CC45B792C80D77900A39477 /* GuestView.swift in Sources */,
 				3CC45B6D2C80D1B000A39477 /* ContentView.swift in Sources */,
 				3C150DB32C99155B00E08AF3 /* ResiduoView.swift in Sources */,
@@ -326,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Prototype1/Preview Content\"";
+				DEVELOPMENT_TEAM = NDKZJ67XE3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -357,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Prototype1/Preview Content\"";
+				DEVELOPMENT_TEAM = NDKZJ67XE3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

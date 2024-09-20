@@ -10,6 +10,7 @@ import SwiftUI
 struct ConocenosView: View {
     // Environment variable to dismiss the view
     @Environment(\.dismiss) var dismiss
+    @Environment(\.openURL) var openURL // To open Safari with a URL
     
     var body: some View {
         NavigationView {
@@ -51,18 +52,44 @@ struct ConocenosView: View {
                                 .cornerRadius(10)
                                 .padding(.bottom, 20)
                             
-                            Text("About Us")
+                            Text("Donar")
                                 .font(.largeTitle)
                                 .foregroundColor(.white)
                                 .bold()
                                 .padding(.bottom, 10)
                             
-                            Text("We are a company dedicated to making the world a better place by focusing on sustainability, social responsibility, and innovation. Our mission is to create solutions that positively impact our community and the environment.")
+                            Text("Se aceptan donaciones de alimentos no perecederos como granos, semillas, enlatados y abarrotes. También se pueden donar alimentos perecederos, gracias a mejoras en la infraestructura y logística del banco")
                                 .font(.body)
                                 .foregroundColor(.white)
                                 .multilineTextAlignment(.center)
                                 .padding(.horizontal)
                                 .padding(.bottom, 20)
+                            
+                            // Button to open Safari on the donation page
+                            Button(action: {
+                                openURL(URL(string: "https://bamx.org.mx/formas-de-donar/")!)
+                            }) {
+                                Text("Donar")
+                                    .font(.title2)
+                                    .foregroundColor(.black)
+                                    .padding()
+                                    .frame(width: 250, height: 50)
+                                    .background(Color.green)
+                                    .cornerRadius(10)
+                            }
+                            .padding(.bottom, 10)
+                            
+                            // Button to navigate to PersonaView
+                            NavigationLink(destination: PersonaView().navigationBarBackButtonHidden(true)) {
+                                Text("Donar en vivo")
+                                    .font(.title2)
+                                    .foregroundColor(.black)
+                                    .padding()
+                                    .frame(width: 250, height: 50)
+                                    .background(Color.green)
+                                    .cornerRadius(10)
+                            }
+                            .padding(.bottom, 20)
                             
                             // Button to go back to the previous view with return animation
                             Button(action: {

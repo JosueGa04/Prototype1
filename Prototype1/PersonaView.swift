@@ -66,7 +66,7 @@ struct PersonaView: View {
                             Button(action: {
                                 dismiss() // Retorna a la vista anterior con animación de vuelta
                             }) {
-                                Text("Back to Dashboard")
+                                Text("Regresar")
                                     .font(.title2)
                                     .foregroundColor(.black)
                                     .padding()

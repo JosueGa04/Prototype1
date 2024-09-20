@@ -39,19 +39,19 @@ struct GuestView: View {
                     
                         VStack(spacing: 20) {
                             NavigationLink(destination: ConocenosView().navigationBarBackButtonHidden(true)) {
-                                CardView(title: "Conocenos", color: .blue)
+                                CardView(title: "Donar", color: .blue)
                             }
                             
                             NavigationLink(destination: Text("Second Card Destination")) {
-                                CardView(title: "Empresa", color: .green)
+                                CardView(title: "Calendario", color: .green)
                             }
                             
                             NavigationLink(destination: PersonaView().navigationBarBackButtonHidden(true)) {
-                                CardView(title: "Persona", color: .red)
+                                CardView(title: "Ubicacion", color: .red)
                             }
                             
                             NavigationLink(destination: ResiduoView().navigationBarBackButtonHidden(true)) {
-                                CardView(title: "Donar Ropa", color: .purple)
+                                CardView(title: "Reporte Ropa", color: .purple)
                             }
                         }
                         .padding()
